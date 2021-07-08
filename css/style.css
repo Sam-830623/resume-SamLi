@@ -1,0 +1,250 @@
+/* h1=32px h2=24px h3=18.72px h4=16px */
+*{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+}
+img{
+    display: block;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 每個標題共用的 */
+h1{
+    line-height: 43px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    line-height: 32px;
+    margin: 0;
+}
+
+.resume-title{
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* resumetop 最上面部分 */
+.resumetop{
+    padding: 36px 0 72px;
+}
+
+.resume-name{
+    font-size: 80px;
+    line-height: 106px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #000;
+}
+
+.resume-pic{
+    margin: 48px 0;
+}
+
+.resume-pic img{
+    width: 324px;
+    height: 324px;
+    border-radius: 50%;
+}
+
+/* profile */
+.profile{
+    margin-bottom: 72px;
+}
+
+.profile-title{
+    border-bottom: 1px solid #000;
+}
+
+.profile-title h2{
+    padding-left: 16px;
+    color: #A00404;
+}
+
+.profile-list{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.profile-top{
+    padding-top: 16px;
+}
+
+.profile-bottom{
+    padding-top: 24px;
+}
+
+/* education */
+.education-title{
+    border-bottom: 1px solid #000;
+}
+
+.education-title h2{
+    color: #A00404;
+    margin-left: 16px;
+}
+
+.education-list{
+    padding-top: 16px;
+}
+
+.education-list li{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+
+
+/* skills */
+.skills{
+    background-color: #415165;
+    padding: 36px 0;
+    color: white;
+}
+
+.skills-title{
+    border-bottom: 1px solid #fff;
+    justify-content: center;
+}
+
+.skills-title h2{
+    padding-left: 16px;
+}
+
+.skills-content{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    padding-top: 36px;
+}
+
+.skill-list{
+    border-left: 1px solid #fff;
+    padding-left: 24px;
+}
+
+.skill-list li{
+    padding-bottom: 16px;
+}
+
+
+
+/* work experience */
+/* 一開始沒有決定好彼此間距 以為都一樣 要想好 */
+.work-experience{
+    margin: 72px 0;
+}
+.work-title{
+    border-bottom: 1px solid #000;
+}
+
+.work-title h2{
+    color: #A00404;
+    margin-left: 16px;
+}
+
+.work-content{
+    width: 642px;
+    border-left: 1px solid #96A9C4;
+    padding-left: 24px;
+    margin:16px 0 0 24px;
+}
+
+.worklist{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.worklist img{
+    width: 90px;
+    height: 90px;
+}
+
+.work-text{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* 有沒有更快寫法 不要一個一個加*/
+.pt-24{
+    padding-top: 24px;
+}
+
+.pt-8{
+    padding-top: 8px;
+}
+
+
+/* footer */
+/* icon圖片還沒好 */
+.footer{
+    text-align: center;
+    background-color: #415165;
+    color: white;
+    padding-top: 24px;
+}
+
+.footer-title{
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
+
+.footer-title h2{
+    padding-left: 16px;
+}
+
+.footer-content{
+    font-size: 24px;
+    line-height: 36px;
+    padding:32px 0 36px;
+    font-weight: 200;
+}
+
+.footerimg{
+    display: flex;
+    justify-content: center;
+}
+
+.footerimg img{
+    width: 48px;
+    height: 48px;
+    margin-top: 16px;
+    /* background:white; */
+}
+
+.footerimg li{
+    margin-right: 24px;
+}
+
+.footerimg li:last-child{
+    margin-right: 0;
+}
